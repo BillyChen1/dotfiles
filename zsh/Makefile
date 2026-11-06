@@ -6,7 +6,7 @@
 ~/.p10k.zsh: p10k.zsh
 	cp $< $@
 
-~/.proxy.sh: .proxy.sh
+~/.proxy.sh: proxy.sh
 	cp $< $@
 
 ~/.oh-my-zsh: 
