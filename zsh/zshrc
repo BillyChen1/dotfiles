@@ -113,14 +113,14 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-JAVA_HOME=/home/cqm/jdk-21.0.11
-export PATH=$PATH:$JAVA_HOME/bin
+JAVA_HOME=$HOME/jdk-21.0.11
+export PATH=$JAVA_HOME/bin:$PATH
 
-export PATH=$PATH:/home/cqm/apache-maven-3.9.15/bin
+export PATH=$HOME/apache-maven-3.9.15/bin:$PATH
 
-export PATH=$PATH:/usr/local/go/bin
+export PATH=/usr/local/go/bin:$PATH
 
-export PATH=$PATH:/home/cqm/uv-x86_64-unknown-linux-gnu
+export PATH=$HOME/uv-x86_64-unknown-linux-gnu:$PATH
 
 alias proxy='source ~/.proxy.sh'
 
